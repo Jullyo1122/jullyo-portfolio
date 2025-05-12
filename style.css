@@ -1,0 +1,342 @@
+@import url('https://fonts.googleapis.com/css2?family=Share+Tech&display=swap');
+
+body{
+  font-family: "Share Tech", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  background-color: #0D0D0D;
+}
+.cabecalho{
+    background-color: rgba(0, 0, 0, 0.493);
+    height: 120px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #02735E;
+}
+.logo{
+    position: relative;
+    right: 270px;
+    color: #0D0D0D;
+}
+.navegar{
+    display: flex;
+    position: relative;
+    left: 260px;
+    gap: 60px;
+    font-size: 1.1em;
+}
+
+a{
+    text-decoration: none;
+    color: #0D0D0D;
+    transition: transform 0.3s, color 0.3s;
+}
+a:hover{
+    transform: scale(1.2);
+    color: #FFFFFF;
+}
+
+.botao-de-contato{
+    background-color: transparent;
+    color: #FFFFFF;
+    border: 2px solid white;
+    text-align: center;
+    position: relative;
+    right: 545px;
+    width: 135px;
+    height: 45px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-family: "Share Tech", sans-serif;
+    transition: transform 0.3s, background-color 0.3s, border 0.3s;
+    top: 5px;
+}
+.botao-de-contato:hover{
+    background-color: #02735E;
+    border: none;
+}
+.pagina-01{
+    background-color: #0D0D0D;
+    height: 500px;
+    margin-top: -21px;
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    left: 60px;
+}
+.apresentacao{
+    color: #36BFB1;
+    position: relative;
+    text-align: start;
+    left: 50px;
+    margin-top: 100px;
+}
+.sobremim{
+    color: #36BFB1;
+    position: relative;
+    width: 360px;
+    text-align: start;
+    left: 50px;
+    margin-top: 30px;
+}
+.links{
+    display: flex;
+    position: relative;
+    right: -40px;
+    top: 30px;
+    gap: -10px;
+}
+.in img{
+    position: relative;
+    top: 1px;
+    width: 45px; 
+    height: auto;
+}
+.git img{
+    width: 60px; 
+    height: auto;
+}
+.insta img{
+    width: 60px; 
+    height: auto;
+}
+.zap img{
+    width: 60px; 
+    height: auto;
+}
+.foto-de-perfil{
+    position: relative;
+    top: -395px;
+    left: 230px;
+}
+.habilidade{
+    background-color: #014034;
+    text-align: center;
+    position: relative;
+    top: -140px;
+    font-size: 35px;
+}
+.pagina-02{
+    padding: 170px;
+    background-color: #014034;
+    height: 400px;
+}
+.buttons-habi {
+  display: grid;
+  grid-template-columns: 180px 180px; 
+  column-gap: 2px;
+  row-gap: 20px;
+  justify-content: center; 
+  position: relative;
+  top: -120px;
+}
+
+.buttons-habi button {
+  background-color: #0D0D0D;
+  border: 3px solid #0D0D0D;
+  cursor: pointer;
+  width: 160px;
+  height: 160px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  transition: border-color 0.3s ease;
+}
+.buttons-habi button:hover{
+  border-color: #FFFFFF;
+ 
+}
+
+.pagina-03 {
+    background-color: #0D0D0D;
+    text-align: center;
+    padding: 60px 20px;
+  }
+
+.pagina-03 h1{
+  color: #02735E;
+  font-size: 37px;
+}
+  
+  .card-projeto {
+    background-color: #02735E;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    margin: 30px auto;
+    max-width: 900px;
+    border-radius: 10px;
+  }
+  
+  .imagem-projeto {
+    width: 300px;
+    border-radius: 10px;
+  }
+  
+  .info-projeto {
+    flex: 1;
+    margin-left: 20px;
+    text-align: left;
+  }
+  
+  .info-projeto h2 {
+    color: #0D0D0D;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+  }
+  
+  .info-projeto p {
+    color: #0D0D0D;
+    font-size: 1rem;
+    margin-bottom: 20px;
+  }
+  
+  .botao-demo {
+    background-color: #0D0D0D;
+    color: #FFFFFF;
+    padding: 10px 15px;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    border-radius: 5px;
+    font-size: 0.95rem;
+    transition: background-color 0.3s;
+  }
+  
+  .botao-demo img {
+    width: 20px;
+  }
+  
+  .botao-demo:hover {
+    background-color: #36BFB1;
+  }
+  
+  /* Responsivo */
+  @media (max-width: 768px) {
+    .card-projeto {
+      flex-direction: column;
+      text-align: center;
+    }
+  
+    .info-projeto {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+  
+  .pagina-04 {
+    background-color: #01352C; /* verde escuro igual */
+    text-align: center;
+    padding: 60px 20px;
+  }
+  
+  .certificacao {
+    background-color: #0D0D0D;
+    color: white;
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 600px;
+    border-radius: 8px;
+    text-align: left;
+  }
+  
+  .certificacao p {
+    margin: 0;
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+  
+  .titulo-secao {
+    font-size: 2rem;
+    margin-bottom: 40px;
+    color: #0D0D0D;
+  }
+
+  .footer {
+    background-color: #0e0e0e; /* fundo bem escuro */
+    color: white;
+    padding: 60px 20px;
+    
+  }
+  
+  .footer h2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-subtitle {
+    font-size: 23px;
+    font-weight: bold;
+    margin-bottom: 10px;
+  }
+  
+  .footer-text {
+    font-size: 16px;
+    max-width: 600px;
+    line-height: 1.5;
+  }
+  
+  
+@media (max-width: 768px) {
+    .logo{
+        position: relative;
+        right: 5px;
+        top: 5px;
+
+    }
+   
+    .cabecalho {
+        flex-direction: column;
+        text-align: center;
+        
+    }
+
+    .navegar {
+        flex-direction: column;
+        gap: 10px;
+        display: none;
+    }
+
+    .pagina-01 {
+        position: relative;
+        padding: -10px;
+        left: -50px;
+        top: -40px;
+    }
+    .apresentacao{
+        text-align: center;
+    }
+    .sobremim{
+        text-align: center;
+        position: relative;
+        left: 100px;
+    }
+    .foto-de-perfil {
+        width: 250px;
+        position: relative;
+        left: 45px;
+        top: -30px;
+    }
+    .links{
+        position: relative;
+        left: 165px;
+        top: -30px;
+    }
+    .habilidade{
+      text-align: center;
+      position: relative;
+      left: -20px;
+    }
+}
+
+html {
+  scroll-behavior: smooth;
+}
+.caminho-zap{
+  color: #FFFFFF;
+}
