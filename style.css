@@ -120,7 +120,7 @@ a:hover{
 .pagina-02{
     padding: 170px;
     background-color: #014034;
-    height: 400px;
+    height: 730px;
 }
 .buttons-habi {
   display: grid;
@@ -230,7 +230,7 @@ a:hover{
   }
   
   .pagina-04 {
-    background-color: #01352C; /* verde escuro igual */
+    background-color: #01352C; 
     text-align: center;
     padding: 60px 20px;
   }
@@ -285,7 +285,7 @@ a:hover{
 @media (max-width: 768px) {
     .logo{
         position: relative;
-        right: 5px;
+        right: -8px;
         top: 5px;
 
     }
@@ -303,35 +303,78 @@ a:hover{
     }
 
     .pagina-01 {
-        position: relative;
-        padding: -10px;
-        left: -50px;
-        top: -40px;
-    }
+      position: relative;
+      padding: 20px;
+      left: 0;
+      top: 0;
+}
+
     .apresentacao{
         text-align: center;
-    }
-    .sobremim{
-        text-align: center;
+        margin-top: -50px;
         position: relative;
-        left: 100px;
+        left: 5px;
     }
-    .foto-de-perfil {
-        width: 250px;
-        position: relative;
-        left: 45px;
-        top: -30px;
-    }
-    .links{
-        position: relative;
-        left: 165px;
-        top: -30px;
-    }
-    .habilidade{
+    .sobremim {
       text-align: center;
       position: relative;
-      left: -20px;
+      left: -25px;
+      margin: 0 auto;
+      margin-top: -30px;
+      padding: 25px;
+}
+
+    .foto-de-perfil {
+      width: 250px;
+      position: relative;
+      left: 10px;
+      top: -65px;
+      margin: 20px auto;
+      display: block;
+}
+
+    .links {
+    position: relative;
+    left: 5px;
+    top: -40px;
+    justify-content: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+    .habilidade {
+    text-align: center;
+    position: relative;
+    left: -70px;
+}
     }
+    .imagem-projeto {
+  width: 100%;
+  max-width: 300px;
+  height: auto;
+  border-radius: 10px;
+  display: block;
+}
+    .buttons-habi button {
+    text-align: center;
+    position: relative;
+    left: 25px;
+    width: 130px;
+    height: 135px;
+}
+.buttons-habi button img {
+    max-width: 150px;
+    height: auto;
+  }
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
 }
 
 html {
