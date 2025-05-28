@@ -71,6 +71,30 @@ a:hover{
     text-align: start;
     left: 50px;
     margin-top: 100px;
+    border-right: 10px solid #ffffff;
+    width: 270px;
+    animation: mark 0.5s step-end infinite, write 5s steps(17, end) infinite;
+    overflow: hidden;
+    white-space: nowrap;
+}
+@keyframes mark{
+  0% {
+        border-right-color: #ffffff;
+    }
+    50% {
+        border-right-color: transparent;
+    }
+    100% {
+        border-right-color: #ffffff;
+    }
+}
+@keyframes write{
+  0%{
+    width: 0;
+  }
+  100% {
+        width: 20ch;
+    }
 }
 .sobremim{
     color: #36BFB1;
