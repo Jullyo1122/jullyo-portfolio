@@ -407,3 +407,32 @@ html {
 .caminho-zap{
   color: #FFFFFF;
 }
+.cabecalho{
+      opacity: 0;
+      transform: translateY(50px);
+      animation: aparecer 1.5s ease-out forwards;
+}
+
+@keyframes aparecer {
+      to {
+        opacity: 3;
+        transform: translateY(0);
+      }
+    }
+.pagina-01{
+      opacity: 0;
+      transform: translateY(50px);
+      animation: aparecer 1.5s ease-out forwards;
+}
+
+.foto-de-perfil {
+      animation: flutuar 2s ease-in-out infinite;
+    }
+
+    @keyframes flutuar {
+      0%   { transform: translateY(0); }
+      50%  { transform: translateY(-20px); }
+      100% { transform: translateY(0); }
+    }
+
+
